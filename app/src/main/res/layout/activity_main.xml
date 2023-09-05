@@ -7,13 +7,13 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/txtname"
+        android:layout_width="52dp"
+        android:layout_height="30dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="155dp"
-        android:layout_marginBottom="612dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="569dp"
         android:text="@string/lblName" />
 
     <EditText
@@ -41,5 +41,16 @@
         android:hint="@string/txtPassword"
         android:inputType="textPassword"
         android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="110dp"
+        android:text="@string/btnEnviar"
+        android:onClick="enviarDatos"/>
 
 </RelativeLayout>

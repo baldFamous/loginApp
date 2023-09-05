@@ -3,5 +3,7 @@
     <string name="lblName">Login</string>
     <string name="txtNombre">Name</string>
     <string name="txtPassword">Password</string>
+    <string name="btnEnviar">Enviar Datos</string>
+
 
 </resources>
