@@ -14,7 +14,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="155dp"
         android:layout_marginBottom="612dp"
-        android:text="Pagina de Login" />
+        android:text="@string/lblName" />
 
     <EditText
         android:id="@+id/inputName"
@@ -25,8 +25,9 @@
         android:layout_marginEnd="89dp"
         android:layout_marginBottom="341dp"
         android:ems="10"
-        android:hint="Name"
-        android:inputType="text" />
+        android:hint="@string/txtNombre"
+        android:inputType="text"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/inputPassword"
@@ -37,7 +38,8 @@
         android:layout_marginEnd="91dp"
         android:layout_marginBottom="210dp"
         android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword" />
+        android:hint="@string/txtPassword"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
 
 </RelativeLayout>

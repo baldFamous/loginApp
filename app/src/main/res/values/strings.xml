@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">loginPage</string>
+    <string name="lblName">Login</string>
+    <string name="txtNombre">Name</string>
+    <string name="txtPassword">Password</string>
+
 </resources>
